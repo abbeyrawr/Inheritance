@@ -8,6 +8,7 @@ quarterback = ac.Football_Player(6.2,250,0.15,'quarterback','offense')
 print("The height for the generic athlete is:",generic_athlete.get_ht())
 
 #print("The team of the generic athlete is:",generic_athlete.get_team())
+#doesn't work because you can't access it from the superclass
 
 print("The weight for the football player is:",quarterback.get_wt())
 
